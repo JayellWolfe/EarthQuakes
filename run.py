@@ -80,7 +80,7 @@ def display_page(pathname):
     elif pathname == '/process':
         return process.layout
     else:
-        return dcc.Markdown('## Page not found')
+        return dcc.Markdown('## Time To Failure')
 
 if __name__ == '__main__':
     app.run_server(debug=True)
