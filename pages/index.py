@@ -29,7 +29,7 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Predications
+            ## Predictions
 
             Predict the time to failure during earthquake simulations
 
