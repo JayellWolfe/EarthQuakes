@@ -56,3 +56,6 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets, meta_tags=m
 app.config.suppress_callback_exceptions = True
 app.title = 'EarthQuakes' # appears in browser title bar
 server = app.server
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
