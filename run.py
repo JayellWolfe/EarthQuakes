@@ -33,10 +33,10 @@ navbar = dbc.NavbarSimple(
         dbc.NavItem(dcc.Link('Insights', href='/insights', className='nav-link')), 
         dbc.NavItem(dcc.Link('Process', href='/process', className='nav-link')), 
     ],
-    sticky='top',
-    color='light', 
-    light=True, 
-    dark=False
+   sticky='top',
+    color='dark', 
+    light=False,
+    dark=True
 )
 
 footer = dbc.Container(
