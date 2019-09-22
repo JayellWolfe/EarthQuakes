@@ -42,7 +42,9 @@ column1 = dbc.Col(
 
 column2 = dbc.Col(
     [
-        dcc.Graph(figure=fig),
+        html.Img(src='assets/earthquake_heatmap.jpg',
+                className='img-fluid'),
+
     ]
 )
 
